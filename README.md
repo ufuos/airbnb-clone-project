@@ -134,3 +134,24 @@ Preserving Platform Integrity – Prevents unauthorized property modifications, 
 Maintaining Availability – Rate limiting and monitoring prevent DDoS attacks, ensuring the app remains accessible.
 
 Compliance & Trust – Adhering to security standards (GDPR, PCI DSS) protects the platform legally and ethically.
+
+## ⚙️ CI/CD Pipeline
+
+A **CI/CD (Continuous Integration/Continuous Deployment) pipeline** automates the process of building, testing, and deploying the application.  
+This ensures that new code changes are integrated smoothly, tested thoroughly, and deployed reliably without manual intervention.
+
+### 🔑 Why it’s Important
+
+- **Faster Development**: Automates repetitive tasks, reducing manual errors.
+- **Improved Quality**: Runs automated tests to catch bugs early before reaching production.
+- **Reliable Deployment**: Ensures consistent builds and smooth releases across environments.
+- **Team Collaboration**: Makes it easier for multiple developers to contribute without breaking the project.
+
+### 🛠 Tools for CI/CD
+
+- **GitHub Actions** – Automates build, test, and deployment workflows directly from GitHub.
+- **Docker** – Containerizes the application for consistent deployment across environments.
+- **Docker Compose** – Manages multi-service application stacks (e.g., API, database, frontend).
+- **CI/CD Providers** (optional) – Services like **CircleCI**, **Travis CI**, or **Jenkins** can also be used depending on team preference.
+
+> 🚀 With a CI/CD pipeline, every new feature, fix, or improvement can move from development → testing → production quickly and reliably.
