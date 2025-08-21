@@ -80,7 +80,7 @@ GET /reviews/{review_id}/ - Retrieve a specific review
 PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review
 
-# Features Overview
+# Features Breakdown
 
 1. API Documentation
    OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
