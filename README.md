@@ -33,3 +33,14 @@ DevOps Engineer: Handles deployment, monitoring, and scaling of the backend serv
 QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 A UI/UX designer would accompany you throughout the development lifecycle, helping you achieve business goals via functional and engaging user experiences, as well as analyzing, evaluating, and enhancing those experiences over time.
+
+# Technology Stack Overview
+
+Django: A high-level Python web framework used for building the RESTful API.
+Django REST Framework: Provides tools for creating and managing RESTful APIs.
+PostgreSQL: A powerful relational database used for data storage.
+GraphQL: Allows for flexible and efficient querying of data.
+Celery: For handling asynchronous tasks such as sending notifications or processing payments.
+Redis: Used for caching and session management.
+Docker: Containerization tool for consistent development and deployment environments.
+CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
