@@ -104,3 +104,33 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 7. Database Optimizations
    Indexing: Implement indexes for fast retrieval of frequently accessed data.
    Caching: Use caching strategies to reduce database load and improve performance.
+
+# API Security
+
+Key Security Measures
+
+Authentication – Use secure login and registration with JWT or OAuth to verify user identity.
+
+Authorization – Role-based access control (e.g., host vs guest) to prevent unauthorized actions.
+
+Rate Limiting – Restrict repeated requests to APIs to prevent brute-force attacks and abuse.
+
+Input Validation & Sanitization – Prevent SQL injection, XSS, and other injection attacks.
+
+Data Encryption – Encrypt sensitive information (e.g., passwords with bcrypt, payments with HTTPS/TLS).
+
+Secure Payments – Use trusted gateways (e.g., Stripe, PayPal) with PCI compliance.
+
+Logging & Monitoring – Track suspicious activities and potential breaches in real-time.
+
+🔒 Why Security is Crucial
+
+Protecting User Data – Personal info (emails, IDs, contact details) must be safeguarded to maintain trust and comply with privacy laws.
+
+Securing Payments – Ensures safe transactions, prevents fraud, and builds user confidence in booking and payments.
+
+Preserving Platform Integrity – Prevents unauthorized property modifications, fake bookings, or account takeovers.
+
+Maintaining Availability – Rate limiting and monitoring prevent DDoS attacks, ensuring the app remains accessible.
+
+Compliance & Trust – Adhering to security standards (GDPR, PCI DSS) protects the platform legally and ethically.
